@@ -147,11 +147,7 @@
       <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
         <AttachedDevice passthrough="false" type="DVD" port="1" device="0"/>
       </StorageController>
-      <StorageController name="SATA" type="AHCI" PortCount="1" useHostIOCache="false" Bootable="true" IDE0MasterEmulationPort="0" IDE0SlaveEmulationPort="1" IDE1MasterEmulationPort="2" IDE1SlaveEmulationPort="3">
-        <AttachedDevice type="HardDisk" port="0" device="0">
-          <Image uuid="{64d68f9f-db63-4dd9-9c54-45037749bdd1}"/>
-        </AttachedDevice>
-      </StorageController>
+      <StorageController name="SATA" type="AHCI" PortCount="1" useHostIOCache="false" Bootable="true" IDE0MasterEmulationPort="0" IDE0SlaveEmulationPort="1" IDE1MasterEmulationPort="2" IDE1SlaveEmulationPort="3"/>
     </StorageControllers>
   </Machine>
 </VirtualBox>
